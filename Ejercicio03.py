@@ -1,5 +1,5 @@
 diccionario = {"Pan": 1.40, "Huevos":2.30, "Cebolla": 0.85, "Aceite": 4.35}
-artículo = input("Escribe un artículo de supermercado\n")
+artículo = input("Escribe un artículo de supermercado\n").capitalize()
 unidades = int(input("Pon cuantas unidades quieres de ese artículo\n"))
 if artículo in diccionario:
     precio = diccionario[artículo] * unidades

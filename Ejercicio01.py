@@ -1,5 +1,5 @@
 monedas = {"Euro":"€", "Dolar":"$", "Yen":"¥"}
-usuario = input("Escribe la primera moneda que se te ocurra\n")
+usuario = input("Escribe la primera moneda que se te ocurra\n").capitalize()
 if usuario == "Euro":
     print(monedas["Euro"])
 elif usuario == "Dolar":
